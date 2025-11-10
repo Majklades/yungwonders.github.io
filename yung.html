@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<link rel="stylesheet" href="yung.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>yung.gg</title>
+<meta name="description" content="yung.gg" />
+</head>
+<body>
+<div class="wrap">
+<main class="card" role="main" aria-labelledby="profile-name">
+<header class="profile">
+<a href="https://linktr.ee/yungmajkl" class="avatar" aria-hidden="true">
+<img src="yung.jpg" alt="Profilová fotka" />
+</a>
+<h1 id="profile-name">yung</h1>
+<p class="bio">Producer • beatmaker • Kladno</p>
+</header>
+
+<section class="links" aria-label="Odkazy">
+  <a class="btn" href="https://open.spotify.com/artist/2CnesEDLVtdgCs868KkGfm" target="_blank" rel="noopener noreferrer">Spotify</a>
+  <a class="btn" href="https://music.apple.com/us/artist/yung/1802256424" target="_blank" rel="noopener noreferrer">Apple Music</a>
+  <a class="btn" href="mailto:yungwonders@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a>
+</section>
+
+<div class="socials" aria-label="Sociální sítě">
+  <a href="https://www.instagram.com/yungmajkl" title="Instagram" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.3"/>
+      <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.3"/>
+      <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/>
+    </svg>
+  </a>
+  <a href="https://www.youtube.com/channel/UChAi0zCi4YNbZnF3hpwFqxw" title="YouTube" aria-label="YouTube">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="6" width="20" height="12" rx="3" stroke="currentColor" stroke-width="1.3"/>
+      <path d="M10 9l5 3-5 3V9z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+  <a href="https://www.tiktok.com/@yungmajklades" title="TikTok" aria-label="TikTok">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 15h1V9H4v6zM6 16h1V8H6v8zM8 17h1V7H8v10zM10 18h2V6h-2v12zM15 18a4 4 0 0 1 0-8h.5a3 3 0 0 1 0 6H15z" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</div>
+
+<footer>© <span id="year"></span> Yung Wonders </footer>
+</main>
+</div>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
